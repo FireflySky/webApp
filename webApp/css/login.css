@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    width: 100%;
+    background:#ccc;
+    text-align: center;
+    line-height: 3rem;
+    font-style: "微软雅黑";
+}
+.header h3{
+    width: 80%;
+    display: inline-block;
+}
+.header div{
+    font-size: 2rem;
+    float: right;
+    width: 20%;
+    line-height: 3rem;
+    background: #ccc;
+}
+.header div:hover{
+    background: rgba(54, 53, 53, 0.3);
+}
+.selection{
+    width: 20%;
+    float: right;
+    text-align: center;
+    line-height: 2rem;
+    background-color:rgba(153, 152, 152, 0.8);
+}
+ul{
+    list-style: none;
+}
+.header ul li:hover{
+    background-color:rgba(153, 152, 152, 1);
+}
